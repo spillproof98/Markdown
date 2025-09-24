@@ -9,7 +9,7 @@ const AttachmentUploader = ({ noteId, onUpload }) => {
   const handleFileChange = async (e) => {
     const selectedFile = e.target.files[0];
     if (!selectedFile || !noteId) {
-      setError("Please select a note first.");
+      setError("");
       return;
     }
 
