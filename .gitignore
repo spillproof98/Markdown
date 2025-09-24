@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+notetaker-backend/node_modules/
+
+# environment files
+.env
+notetaker-backend/.env
+# Node modules
+node_modules/
+notetaker-backend/node_modules/
+
+# Environment files
+.env
+notetaker-backend/.env
+
+# Logs
+*.log
